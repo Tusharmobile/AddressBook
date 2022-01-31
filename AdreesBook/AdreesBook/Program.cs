@@ -13,17 +13,23 @@ namespace AdreesBook
             ///Main  Method / program Entry Point
             
             {
-                //Showing Welcome Message On console.
-                Console.WriteLine("Welcome to Address Book Progam \n");
-                CreateAddressBook createAddressBook = new CreateAddressBook();
-                createAddressBook.ReadInput();
-                Console.ReadLine();
+                //Main  Method / program Entry Point
+               
+                {
+                    //Showing Welcome Message On console.
+                    Console.WriteLine("Welcome to Address Book Progam \n");
+                    CreateAddressBook createAddressBook = new CreateAddressBook();
+                    createAddressBook.ReadInput();
+                    Console.ReadLine();
+                }
+
+
             }
-
-
         }
+
     }
-}
+    }
+
 
 
 
